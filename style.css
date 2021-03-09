@@ -2,7 +2,7 @@
     color: rgb(10, 49, 61);
     font-family:cursive;
     text-align: center; 
-    background-image: url("/photos/header-background.jpg");   
+    background-image: url("photos/header-background.jpg");   
     background-size: cover;
     font-size: 55px;    
     padding-top: 20px;
@@ -22,13 +22,13 @@ ul{
     margin: 0%;    
     text-align: center;
     line-height: 40px;
-    background-image: url("/photos/instr-background.jpg");
+    background-image: url("photos/instr-background.jpg");
     background-size: cover;   
     color:brown;
     font-size: 25px;
     padding-top: 20px;
     padding-bottom: 20px;
-    list-style-image: url("/photos/icon.jpg");    
+    list-style-image: url("photos/icon.jpg");    
 }
 ul li{
     list-style-position: inside;
@@ -55,7 +55,7 @@ ul li{
     font-size:x-large;
 } 
 .playarea{     
-    background-image: url("/photos/tic-tac-toe.jpg");       
+    background-image: url("photos/tic-tac-toe.jpg");       
     background-repeat: repeat;
     background-size: contain;
     opacity: 1;
