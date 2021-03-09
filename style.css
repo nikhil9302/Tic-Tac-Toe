@@ -1,9 +1,12 @@
 .head{ 
-    color: rgb(10, 49, 61); 
-    background-image: url("photos/header-background.jpg");   
-    font-size: 45px;
-    margin: 0%;
-    padding: 20px 20px;           
+    color: rgb(10, 49, 61);
+    font-family:cursive;
+    text-align: center; 
+    background-image: url("/photos/header-background.jpg");   
+    background-size: cover;
+    font-size: 55px;    
+    padding-top: 20px;
+    padding-bottom: 20px;         
 } 
 body{
     margin: 0%;
@@ -17,21 +20,23 @@ h2{
 }
 ul{
     margin: 0%;    
-    text-align: left;
+    text-align: center;
     line-height: 40px;
-    background-color: beige;   
+    background-image: url('/photos/instr-background.jpg');
+    background-size: cover;   
     color:brown;
-    font-size: 20px;
+    font-size: 25px;
     padding-top: 20px;
     padding-bottom: 20px;
-    list-style-image: url('photos/icon.jpg');    
+    list-style-image: url('/photos/icon.jpg');    
 }
 ul li{
-    list-style-position: inside; 
-    background-color: aquamarine;
+    list-style-position: inside;
+    margin-left: 50%;
+    background-color: beige;
     background-size: 50px;
     width:max-content;
-    margin: 5px;    
+    margin: 10px;    
 }
 #b1, #b2, #b3, #b4, #b5,  
 #b6, #b7, #b8, #b9 { 
@@ -50,7 +55,7 @@ ul li{
     font-size:x-large;
 } 
 .playarea{     
-    background-image: url("photos/tic-tac-toe.jpg");       
+    background-image: url("/photos/tic-tac-toe.jpg");       
     background-repeat: repeat;
     background-size: contain;
     opacity: 1;
@@ -80,30 +85,35 @@ ul li{
     cursor: pointer; 
 }
 #print {    
+    text-align: center;
     margin: 10px 40% 10px 40%; 
-    background-color: skyblue;      
+    background-color:orange;      
     background-size:auto;
-    font-family: Verdana,Geneva, Tahoma, sans-serif;
-    color: rgb(16, 104, 192);
-    font-size: 30px; 
+    font-family: 'Courier New', Courier, monospace;
+    color: maroon;
+    font-weight: bold;
+    font-size: 35px; 
 }
 #stat{
     text-decoration: underline;
 }
 .stats{
+    text-align: center;
+    font-family:"Open Sans", "Fira Sans", "Lucida Sans", "Lucida Sans Unicode", "Trebuchet MS", "Liberation Sans", "Nimbus Sans L", sans-serif;
     font-size: 40px;    
-    color:rgb(151, 58, 151);
+    color:rgb(224, 157, 224);
     line-height: 45px;
     padding-top: 20px;
-    background-color: greenyellow;
+    background-image: url('photos/stats-background.jpg');
+    background-size: cover;
     height: 500px;    
 }
 .result{    
     box-sizing: border-box;
     border-style:groove;
     border-width: 15px;
-    border-color:rgb(0, 35, 100);
-    background-color: silver;
+    border-color:orange;
+    background-color: lightyellow;
     width:50%;
     margin:auto;
     padding-bottom: 20px;
