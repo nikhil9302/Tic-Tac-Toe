@@ -22,13 +22,13 @@ ul{
     margin: 0%;    
     text-align: center;
     line-height: 40px;
-    background-image: url('/photos/instr-background.jpg');
+    background-image: url("/photos/instr-background.jpg");
     background-size: cover;   
     color:brown;
     font-size: 25px;
     padding-top: 20px;
     padding-bottom: 20px;
-    list-style-image: url('/photos/icon.jpg');    
+    list-style-image: url("/photos/icon.jpg");    
 }
 ul li{
     list-style-position: inside;
@@ -104,7 +104,7 @@ ul li{
     color:rgb(224, 157, 224);
     line-height: 45px;
     padding-top: 20px;
-    background-image: url('photos/stats-background.jpg');
+    background-image: url("photos/stats-background.jpg");
     background-size: cover;
     height: 500px;    
 }
