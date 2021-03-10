@@ -2,7 +2,7 @@ var startTime, endTime,score1=0,score2=0,game=0;
 
 function game_result() 
 {    
-    var b1, b1, b3, b4, b5, b6, b7, b8, b9; 
+    var b1, b2, b3, b4, b5, b6, b7, b8, b9; 
     b1 = document.getElementById("b1").value; 
     b2 = document.getElementById("b2").value; 
     b3 = document.getElementById("b3").value; 
@@ -472,6 +472,7 @@ function play_9() {
     } 
 }  
 function newgame() {
+    startTime= new Date();
     if(game%2==0)
     { 
         player=1;
