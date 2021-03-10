@@ -476,11 +476,11 @@ function newgame() {
     if(game%2==0)
     { 
         player=1;
-        document.getElementById('print').innerHTML='Player X turn';
+        document.getElementById('print').innerHTML='Player X Turn';
     }
     else{
         player=2;
-        document.getElementById('print').innerHTML='Player O turn';
+        document.getElementById('print').innerHTML='Player O Turn';
     }    
     var id=['b1','b2','b3','b4','b5','b6','b7','b8','b9'];
     for(var i=0;i<9;i++)
