@@ -2,14 +2,14 @@
     color: rgb(10, 49, 61);
     font-family:cursive;
     text-align: center; 
-    background-image: url("header-background.jpg");   
+    background-image: url("photos/header-background.jpg");   
     background-size: cover;
     font-size: 55px;    
     padding-top: 20px;
     padding-bottom: 20px;         
 } 
 body{
-    margin: 0%;        
+    margin: 0%;
     display: block;
 }
 #cf{
@@ -25,16 +25,16 @@ h2{
     margin-bottom: 0px; 
 }
 ul{
-    margin: 0%;       
+    margin: 0%;    
     text-align: center;
     line-height: 40px;
-    background-image: url('instr-background.jpg');
+    background-image: url("photos/instr-background.jpg");
     background-size: cover;   
     color:brown;
     font-size: 25px;
     padding-top: 20px;
     padding-bottom: 20px;
-    list-style-image: url('icon.jpg');    
+    list-style-image: url("photos/icon.jpg");    
 }
 ul li{
     list-style-position: inside;
@@ -61,21 +61,21 @@ ul li{
     font-size:x-large;
 } 
 .playarea{     
-    background-image: url("tic-tac-toe.jpg");       
+    background-image: url("photos/tic-tac-toe.jpg");       
     background-repeat: repeat;
     background-size: contain;
     opacity: 1;
 }
 .box{    
-  background-color: orange;
-  width: 300px;
-  border-bottom-style:outset;
-  border-top-style :inset;
-  border-left-style: groove;
-  border-right-style:ridge;
-  border-color: orangered;
-  border-width: 10px;
-  padding: 20px;  
+    background-color: orange;
+    width: 300px;
+    border-bottom-style:outset;
+    border-top-style :inset;
+    border-left-style: groove;
+    border-right-style:ridge;
+    border-color: orangered;
+    border-width: 10px;
+    padding: 20px;  
 }
 
 #new,#res,#end{
@@ -101,7 +101,7 @@ ul li{
     color:rgb(224, 157, 224);
     line-height: 45px;
     padding-top: 20px;
-    background-image: url('stats-background.jpg');
+    background-image: url("photos/stats-background.jpg");
     background-size: cover;
     height: 500px;    
 }
