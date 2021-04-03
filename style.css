@@ -2,15 +2,18 @@
     color: rgb(10, 49, 61);
     font-family:cursive;
     text-align: center; 
-    background-image: url("photos/header-background.jpg");   
+    background-image: url("header-background.jpg");   
     background-size: cover;
     font-size: 55px;    
     padding-top: 20px;
     padding-bottom: 20px;         
 } 
 body{
-    margin: 0%;
+    margin: 0%;        
     display: block;
+}
+#cf{
+    padding:0px 0px;
 }
 p{
     margin: 0%;
@@ -18,17 +21,20 @@ p{
 h2{
     margin: 0%;
 }
+#boot{
+    margin-bottom: 0px; 
+}
 ul{
-    margin: 0%;    
+    margin: 0%;       
     text-align: center;
     line-height: 40px;
-    background-image: url("photos/instr-background.jpg");
+    background-image: url('instr-background.jpg');
     background-size: cover;   
     color:brown;
     font-size: 25px;
     padding-top: 20px;
     padding-bottom: 20px;
-    list-style-image: url("photos/icon.jpg");    
+    list-style-image: url('icon.jpg');    
 }
 ul li{
     list-style-position: inside;
@@ -55,7 +61,7 @@ ul li{
     font-size:x-large;
 } 
 .playarea{     
-    background-image: url("photos/tic-tac-toe.jpg");       
+    background-image: url("tic-tac-toe.jpg");       
     background-repeat: repeat;
     background-size: contain;
     opacity: 1;
@@ -68,21 +74,12 @@ ul li{
   border-left-style: groove;
   border-right-style:ridge;
   border-color: orangered;
-  border-width: 15px;
+  border-width: 10px;
   padding: 20px;  
 }
-#new,#res,#end{ 
-    box-sizing: border-box; 
-    width: 135px; 
-    height: 40px; 
-    border: 1px solid dodgerblue; 
-    margin: auto; 
-    border-radius: 4px; 
-    font-family: Verdana, Geneva, Tahoma, sans-serif; 
-    background-color: dodgerblue; 
-    color: white; 
-    font-size: 20px; 
-    cursor: pointer; 
+
+#new,#res,#end{
+    font-size:30px;
 }
 #print {    
     text-align: center;
@@ -104,7 +101,7 @@ ul li{
     color:rgb(224, 157, 224);
     line-height: 45px;
     padding-top: 20px;
-    background-image: url("photos/stats-background.jpg");
+    background-image: url('stats-background.jpg');
     background-size: cover;
     height: 500px;    
 }
